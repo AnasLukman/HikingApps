@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*NavBar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("backg2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Form h1{
+    color: whitesmoke;
+}
+
+.search{
+    color: rgb(92, 184, 36);
+    border-radius: 5px;
+}
+
+.Form #weatherForm{
+    color: whitesmoke;
+    margin-bottom: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: rgb(92, 184, 36);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background-color: rgb(92, 184, 36);
+    border-radius: 30px;
+    color: black;
+}
+
+#city{
+    padding: 8px 50px;
+    border-radius: 30px;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("backg1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hioutput{
+    background-color: rgb(92, 184, 36);
+    padding: 30px 30px;
+    border-radius: 30px;
+    margin-left: -100px;
+    margin-bottom: 290px;
+}
+
+.hioutput h2 {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.hioutput ul {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.tips {
+    padding: 30px 30px;
+    border-radius: 30px;
+    background-color: rgb(92, 184, 36);
+    margin-left: 400px;
+    margin-bottom: 300px;
+}
+
+.tips p{
+    color: #000;
+}
+
+.tips h1{
+    text-align: center;
+    color: #000;
+}
+
+
+

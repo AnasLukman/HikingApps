@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>EXPLORE</title>
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar">
+        <a class="logo"><img src="hikinglogo.png" height="100" width="110"></a>
+        <ul class="nav-links">
+            <li><a href="home.html" style="color: whitesmoke;">HOME</a></li>
+            <li><a href="search.html" style="color: whitesmoke;">EXPLORE</a></li>
+            <li class="ctn"><a href="index.html" style="color: whitesmoke;">WRITE PLAN</a></li>
+        </ul>
+    </nav>
+
+    <!-- Form-->
+    <header>
+        <div class="Form">
+            <h1>Get Info For Hiking</h1><br>
+            <div class="line"></div>
+            <form method="POST" id="weatherForm">
+                <input type="text" id="city" placeholder="Hiking Place" />
+                <input onclick="buttonClicked()" type="button" value="Search" class="ctn" id="search">
+            </form>
+        </div>
+    </header>
+
+    <!-- Output -->
+    <section>
+        <div class="hioutput">
+            <h2 >HIKE INFORMATION</h2><br>
+            <ul>
+                <li id="out1">The temperature in Celcius: </li><br>
+                <li id="out2">The longitude in degree: </li><br>
+                <li id="out3">The latitude in degree: </li><br>
+                <li id="out4">The wind speed: </li><br>
+                <li id="out5">The Weather Condition: </li>
+            </ul>
+        </div>
+        <div class="tips" style="color: #ffff;">
+            <h1>IMPORTANT REMINDER!!</h1><br>
+            <p>- The best hiking weather is <strong>warm and breezy </strong>but not too hot or windy. <br> but cold days are also a pleasure to hike in if you wear multiple layers <br> of clothing to regulate your body temperature and avoid sweating.</p><br><br>
+            <p>Make sure you <strong>carry all of the necessary essentials</strong> with you including <br> appropriate clothing, water, snacks and a compass. Be weather wise. Keep <br> an eye on the weather forecast and know the signs of an approaching storm.</p>
+        </div>
+    </section>
+    
+    <script src="search.js"></script>
+</body>
+</html>
